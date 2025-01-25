@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta author="Nikola Radisic">
+    <title>Web Hosting | Selena Cloud</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_us" />
+    <meta name="og:description"
+        content="Selena Cloud Adalah Perusahaan Yang Menyediakan Layanan Hosting Game dan Website" />
+    <meta name="keywords" content="Selena Cloud, Hosting, Game Hosting, SAMP, SAMP Roleplay, Web Hosting, Terbaik">
+    <meta name="theme-color" content="#2b2f32" />
+    <meta property="og:site_name" content="Selena Cloud Hosting" />
+    <meta property="og:url" content="assets/images/favicon.png" />
+    <meta name="og:image" content="assets/images/favicon.png" />
+    <meta name="og:image:width" content="1200">
+    <meta name="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <div class="object_1 text-center">
+        <img src="assets/images/vector_object_1.png" class="img-fluid">
+    </div>
+
+
+
+    <nav id="fixedR" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid container-custom">
+            <a class="navbar-brand text-white" href="/">
+                <div class="d-flex">
+                    <img class="mr-2" src="assets/images/logo.svg" alt="SelenaCloud Logo">
+                    <h2 class="mb-0 d-flex align-items-center">Selena<span>Cloud</span></h2>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarType"
+                aria-controls="navbarType" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start-lg" tabindex="-1" id="navbarType" aria-labelledby="navbarType">
+                <div class="offcanvas-header d-flex d-lg-none">
+                    <div class="d-flex">
+                        <img class="mr-2" src="assets/images/logo.svg" alt="SelenaCloud Logo">
+                        <h2 class="mb-0 d-flex align-items-center">Selena<span>Cloud</span></h2>
+                    </div>
+                </div>
+                <div class="offcanvas-body p-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/gameserver.html">Game Servers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/web-hosting.html">Web Hosting</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/showcase.html">Showcase</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="hostingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Hosting</a>
+                        <ul class="dropdown-menu" aria-labelledby="hostingDropdown">
+                            <li><a class="dropdown-item" href="web-hosting.php">Web Hosting <span class="d-block">Buat Website Mu Agar Lebih Kencang</span></a></li>
+                            <li><a class="dropdown-item" href="vps-hosting.php">VPS Private Server <span class="d-block">Buat Game Kamu Agar Performa Lebih Tinggi</span></a></li>
+                        </ul>
+                    </li>
+                    <div class="button">
+                        <div class="dropdown">
+                            <li class="button nav-item dropdown">
+                                <a class="btn nav-link dropdown-toggle" href="#" id="clientZoneDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="assets/images/user.svg" alt="Client Zone"> Client Zone
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="#">
+                                <li><a class="dropdown-item" href="https://Selenacloud.store/clientzone/">Billing Panel <span
+                                            class="d-block">Billing and Support</span></a></li>
+                                <li><a class="dropdown-item" href="https://Selenacloud.com">Game Panel <span
+                                            class="d-block">Game Management</span></a></li>
+                                <li><a class="dropdown-item" href="https://cpanel.Selenacloud.store">Web Panel <span
+                                            class="d-block">cPanel Management</span></a></li>
+                            </li>
+                        </div>
+                    </div> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="/auth/register">Register</a>
+                    </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script>
+
+        // NAVBAR SCRIPT UPDATED BY GYU
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Toggle Offcanvas for mobile view
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            const offcanvas = document.querySelector("#navbarType");
+
+            navbarToggler.addEventListener("click", function () {
+                offcanvas.classList.toggle("show");
+            });
+
+            // Handle dropdown menu toggle
+            const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+            dropdowns.forEach(function (dropdown) {
+                const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+                dropdownToggle.addEventListener("click", function (e) {
+                    // Prevent the default link behavior
+                    e.preventDefault();
+
+                    // Close other dropdowns when one is opened
+                    dropdowns.forEach(function (otherDropdown) {
+                        if (otherDropdown !== dropdown) {
+                            otherDropdown.querySelector('.dropdown-menu').classList.remove('show');
+                        }
+                    });
+
+                    // Toggle this dropdown's visibility
+                    dropdownMenu.classList.toggle("show");
+                });
+            });
+
+            // Close dropdown menu when clicking outside
+            document.addEventListener("click", function (e) {
+                dropdowns.forEach(function (dropdown) {
+                    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+                    if (!dropdown.contains(e.target)) {
+                        dropdownMenu.classList.remove("show");
+                    }
+                });
+            });
+        });
+    </script>
+
+    <div class="header">
+        <div class="container-fluid container-custom">
+            <div class="text-center">
+                <h2 class="mb-2">Web Hosting</h2>
+                <p>Solusi Hosting Terjangkau dengan Ketersediaan Tinggi, Keamanan, dan Fleksibilitas yang Anda <br>
+                    Butuhkan untuk Mengembangkan Bisnis Anda Tanpa Hambatan.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="web_plans py-5">
+        <div class="container-fluid container-custom">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 card_margin card_standard">
+                        <div class="card-body">
+                            <div class="web_plans_icon text-center">
+                                <svg fill="#E94B35" width="60" height="60" xmlns="http://www.w3.org/2000/svg"
+                                    enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="1em">
+                                    <path class="element_two"
+                                        d="M15,2c-3.3772,0.00142-6.27155,2.41462-6.88025,5.73651c2.90693-1.59074,6.553-0.52375,8.14374,2.38317c0.98206,1.79462,0.98206,3.96594,0,5.76057c3.8013-0.69634,6.31837-4.3424,5.62202-8.14369C21.27662,4.41261,18.37925,1.99872,15,2z">
+                                    </path>
+                                    <circle cx="7" cy="17" r="5"></circle>
+                                    <path class="element_three"
+                                        d="M11,7c-3.08339,0.00031-5.66461,2.33759-5.97,5.40582c2.5358-1.08949,5.47469,0.08297,6.56418,2.61877c0.54113,1.25947,0.54113,2.68593,0,3.94541c3.29729-0.32786,5.7045-3.26663,5.37664-6.56392C16.66569,9.33735,14.08386,6.99972,11,7z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3 class="mt-3 red">Standard</h3>
+                            <p class="mb-4">Cocok untuk Para Pemula Atau Beginner Untuk Mempelajari Dunia Website</p>
+                            <h2 class="mb-4 fw-bold">Rp 40.000
+                                <sup class="sup-month">/ Bulan</sup>
+                            </h2>
+                            <ul>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    1 GB Disk Space
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    1 TB Bandwidth
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    3 Subdomain
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    3 Email Address
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    1 FTP Account
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    3 MySQL Database
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://discord.gg/" class="btn btn-red">Order now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card_popular mb-4">
+                        <div class="card-body">
+                            <div class="web_plans_icon text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#EECA02" width="60"
+                                    height="60">
+                                    <rect width="20" height="15" x="2" y="3" class="element_two" rx="3"></rect>
+                                    <path
+                                        d="M16,21H8a.99992.99992,0,0,1-.832-1.55469l4-6a1.03785,1.03785,0,0,1,1.66406,0l4,6A.99992.99992,0,0,1,16,21Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3 class="text-center my-3 yellow">Professional <span
+                                    class="badge rounded-pill bg-warning">Popular</span></h3>
+                            <p class="mb-4">Cocok Untuk Bisnis Menengah Dan Kuat Untuk Installasi wordpress</p>
+                            <h2 class="mb-4 fw-bold">Rp 80.000
+                                <sup class="sup-month">/ Bulan</sup>
+                            </h2>
+                            <ul>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    2 GB Disk Space
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    1 TB Bandwidth
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    Unlimited Subdomain
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    5 Email Address
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    Unlimited FTP Account
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    Unlimited MySQL Database
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://discord.gg/" class="btn btn-yellow">Order now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 card_margin card_enterprice">
+                        <div class="card-body">
+                            <div class="web_plans_icon text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                    viewBox="0 0 24 24" fill="#1873D3" width="60" height="60">
+                                    <path class="element_two"
+                                        d="M20.23,7.24L12,12L3.77,7.24c0.16898-0.29248,0.40995-0.53689,0.7-0.71L11,2.76c0.62072-0.35004,1.37928-0.35004,2,0l6.53,3.77C19.82005,6.70311,20.06102,6.94752,20.23,7.24z">
+                                    </path>
+                                    <path class="element_three"
+                                        d="M12,12v9.5c-0.31529-0.00043-0.6264-0.07223-0.91-0.21L4.5,17.48c-0.61772-0.35735-0.99865-1.01637-1-1.73v-7.5c0.00166-0.35428,0.09466-0.70215,0.27-1.01L12,12z">
+                                    </path>
+                                    <path
+                                        d="M20.5,8.25v7.5c-0.00135,0.71363-0.38228,1.37265-1,1.73l-6.62,3.82c-0.27531,0.12984-0.57562,0.1981-0.88,0.2V12l8.23-4.76C20.40534,7.54785,20.49834,7.89572,20.5,8.25z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3 class="text-center my-3 blue">Enterprice</h3>
+                            <p class="mb-4">Hosting Ini Cocok untuk Perusahaan Kecil Atau Developer</p>
+                            <h2 class="mb-4 fw-bold">Rp 130.000
+                                <sup class="sup-month">/ Bulan</sup>
+                            </h2>
+                            <ul>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    5 GB Disk Space
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    1 TB Bandwidth
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    Unlimited Subdomain
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    Unlimited Email Address
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    Unlimited FTP Account
+                                </li>
+                                <li>
+                                    <div class="badge icon me-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            width="0.9em" height="0.9em" preserveAspectRatio="xMidYMid meet"
+                                            viewBox="0 0 24 24">
+                                            <path fill="none" stroke="currentColor" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke-width="2" d="m4 12l6 6L20 6"></path>
+                                        </svg>
+                                    </div>
+                                    Unlimited MySQL Database
+                                </li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://discord.gg/" class="btn btn-blue">Order now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="one_click py-5">
+        <div class="container-fluid container-custom">
+            <div class="site_title text-center mb-5">
+                <h2>Instalasi Aplikasi Softaculous 1-Klik</h2>
+                <p>Butuh aplikasi yang tidak ada dalam daftar? Kirimkan tiket kepada kami, dan tim kami akan membantu
+                    Anda menginstalnya!</p>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-3 text-center">
+                    <img src="assets/images/wordpress.png" class="img-fluid mb-3">
+                    <h4>WordPress</h4>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <img src="assets/images/joomla.png" class="img-fluid mb-3">
+                    <h4>Joomla</h4>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <img src="assets/images/drupal.png" class="img-fluid mb-3">
+                    <h4>Drupal</h4>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <img src="assets/images/whmcs.png" class="img-fluid mb-3">
+                    <h4>WHMCS</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel py-5">
+        <div class="container-fluid container-custom">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="panel_content">
+                        <h2>cPanel Panel</h2>
+                        <p class="mb-4">Nikmati kemudahan manajemen website dengan cPanel dari Selena Cloud. Dengan akses
+                            penuh ke FTP, berbagai versi PHP yang dapat dipilih, dan kemampuan untuk mengaktifkan atau
+                            menonaktifkan modul sesuai kebutuhan, pengelolaan situs web menjadi lebih fleksibel dan
+                            efisien. Lihat statistik dan log kesalahan untuk pemantauan dan optimasi maksimal.</p>
+                        <ul>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <li><img src="assets/images/web_console.svg"> Full FTP Access</li>
+                                    <li><img src="assets/images/ftp.svg"> Enable/disable modules</li>
+                                </div>
+                                <div class="col-md-7">
+                                    <li><img src="assets/images/mod.svg"> Multiple PHP Versions</li>
+                                    <li><img src="assets/images/sub_users.svg"> View statistics and errors</li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="owl-carousel" id="panel">
+                        <img class="img-fluid" src="https://via.placeholder.com/560x360/2B2F32/FFFFFF?text=Login+Page">
+                        <img class="img-fluid"
+                            src="https://via.placeholder.com/560x360/2B2F32/FFFFFF?text=ISO+Managment">
+                        <img class="img-fluid" src="https://via.placeholder.com/560x360/2B2F32/FFFFFF?text=Server+List">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="py-5">
+        <div class="container-fluid container-custom">
+            <div class="need_more py-5 px-5 mb-5">
+                <span class="need_more_icon"></span>
+                <div class="row d-flex justify-content-between">
+                    <div class="col-lg-8 col-md-8">
+                        <h2>Butuh Bantuan?</h2>
+                        <p>Jika Kamu Butuh Bantuan Kami, Kami Siap 24 Jam Membantu Anda, Jika Ada Masalah Pada Hosting
+                            Kami
+                            Hubungi Kontak Teknik Kami.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 d-flex align-items-center">
+                        <div class="need_more_right float-end">
+                            <a href="https://discord.gg/" class="btn">Hubungi Kami</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_links">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="/gameserver.html">Game Servers</a></li>
+                                <li><a href="/web-hosting.html">Web Hosting</a></li>
+                                <li><a href="/vps-hosting.html">VPS Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4>Useful links</h4>
+                            <ul>
+                                <li><a href="/">Dashboard</a></li>
+                                <li><a href="https://discord.gg/">Discord Official</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="/about.html">About us</a></li>
+                                <li><a href="/terms-of-service.html">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer_about">
+                    <div class="d-flex mb-2">
+                        <img class="mr-2" src="assets/images/logo.svg">
+                        <h2 class="mb-0 d-flex align-items-center">Selena<span>Cloud</span></h2>
+                    </div>
+                    <p>Hosting Game Dan Hosting Website Dengan Ratting Di Discord Rata Rata 5+ Ratting Dari Pengguna
+                        Kami</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer_bottom py-2">
+        <div class="container-fluid container-custom">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-6 col-sm-4 d-flex justify-content-between">
+                    <div class="d-flex align-items-center me-auto footer-right">
+                        <img src="assets/payment/bca.png" height="50" class="payment-icon">
+                        <img src="assets/payment/dana.webp" height="50" class="payment-icon">
+                        <img src="assets/payment/gopay.jpg" height="50" class="payment-icon">
+                        <img src="assets/payment/ovo.webp" height="50" class="payment-icon">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-8 d-flex align-items-center">
+                    <div class="d-flex align-items-center ms-auto footer-left">
+                        <p class="mb-0">&copy; 2020-2024 Selena Cloud All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .payment-icon {
+            margin-right: 10px;
+        }
+
+        .footer-right .payment-icon:last-child {
+            margin-right: 0;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        jQuery("#panel").owlCarousel({
+            autoplay: !1,
+            rewind: !0,
+            margin: 0,
+            mouseDrag: true,
+            nav: false,
+            dots: false,
+            lazyLoad: !0,
+            items: 1
+        });
+
+        
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            const offcanvas = document.querySelector("#navbarType");
+
+            navbarToggler.addEventListener("click", function () {
+                offcanvas.classList.toggle("show");
+            });
+
+            const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+            dropdowns.forEach(function (dropdown) {
+                const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+                dropdownToggle.addEventListener("click", function (e) {
+                    e.preventDefault();
+
+                    dropdowns.forEach(function (otherDropdown) {
+                        if (otherDropdown !== dropdown) {
+                            otherDropdown.querySelector('.dropdown-menu').classList.remove('show');
+                        }
+                    });
+
+                    dropdownMenu.classList.toggle("show");
+                });
+            });
+
+            document.addEventListener("click", function (e) {
+                dropdowns.forEach(function (dropdown) {
+                    const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+                    if (!dropdown.contains(e.target)) {
+                        dropdownMenu.classList.remove("show");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
